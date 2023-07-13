@@ -92,7 +92,7 @@ class PokemonListCell: UICollectionViewCell {
     }
     
     func config(id: Int){
-        containerView.backgroundColor = .random().withAlphaComponent(0.7)
+        containerView.backgroundColor = .random()
         imgPokemon.image = #imageLiteral(resourceName: "chari")
         pokemonName.text = "Charizard"
         pokemonNumber.text = "#" + String(format: "%03d", id + 1)

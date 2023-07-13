@@ -99,8 +99,8 @@ class PokemonDetailView: UIViewController {
         let imgBack = UIImage(named: "arrow-left")
         navigationController?.navigationBar.backIndicatorImage = imgBack
         navigationController?.navigationBar.backIndicatorTransitionMaskImage = imgBack
-       
-        view.backgroundColor = .random().withAlphaComponent(0.7)
+        
+        view.backgroundColor = UIColor.random()
         
         setupUI()
     }

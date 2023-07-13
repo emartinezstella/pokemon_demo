@@ -23,6 +23,15 @@
 		56EAB2722A5E29A700F70C7C /* PokemonListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB2712A5E29A700F70C7C /* PokemonListCell.swift */; };
 		56EAB2742A5E6B7300F70C7C /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB2732A5E6B7300F70C7C /* CGFloat.swift */; };
 		56EAB2772A5F003600F70C7C /* PokemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB2762A5F003600F70C7C /* PokemonDetailView.swift */; };
+		56EAB27A2A608A8E00F70C7C /* PokemonResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB2792A608A8E00F70C7C /* PokemonResponseModel.swift */; };
+		56EAB27C2A608C1E00F70C7C /* AbilityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB27B2A608C1E00F70C7C /* AbilityModel.swift */; };
+		56EAB27E2A608C5100F70C7C /* SpeciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB27D2A608C5100F70C7C /* SpeciesModel.swift */; };
+		56EAB2802A608CD700F70C7C /* GameIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB27F2A608CD700F70C7C /* GameIndexModel.swift */; };
+		56EAB2822A608DBC00F70C7C /* StatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB2812A608DBC00F70C7C /* StatModel.swift */; };
+		56EAB2842A608DF600F70C7C /* TypeElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB2832A608DF600F70C7C /* TypeElementModel.swift */; };
+		56EAB2862A608EA000F70C7C /* SpritesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB2852A608EA000F70C7C /* SpritesModel.swift */; };
+		56EAB2882A60926C00F70C7C /* MoveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB2872A60926C00F70C7C /* MoveModel.swift */; };
+		56EAB28A2A6092F300F70C7C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAB2892A6092F300F70C7C /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +71,15 @@
 		56EAB2712A5E29A700F70C7C /* PokemonListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListCell.swift; sourceTree = "<group>"; };
 		56EAB2732A5E6B7300F70C7C /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
 		56EAB2762A5F003600F70C7C /* PokemonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailView.swift; sourceTree = "<group>"; };
+		56EAB2792A608A8E00F70C7C /* PokemonResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonResponseModel.swift; sourceTree = "<group>"; };
+		56EAB27B2A608C1E00F70C7C /* AbilityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityModel.swift; sourceTree = "<group>"; };
+		56EAB27D2A608C5100F70C7C /* SpeciesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesModel.swift; sourceTree = "<group>"; };
+		56EAB27F2A608CD700F70C7C /* GameIndexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIndexModel.swift; sourceTree = "<group>"; };
+		56EAB2812A608DBC00F70C7C /* StatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatModel.swift; sourceTree = "<group>"; };
+		56EAB2832A608DF600F70C7C /* TypeElementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeElementModel.swift; sourceTree = "<group>"; };
+		56EAB2852A608EA000F70C7C /* SpritesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritesModel.swift; sourceTree = "<group>"; };
+		56EAB2872A60926C00F70C7C /* MoveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveModel.swift; sourceTree = "<group>"; };
+		56EAB2892A6092F300F70C7C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +183,7 @@
 		56EAB26C2A5DD95100F70C7C /* PokemonList */ = {
 			isa = PBXGroup;
 			children = (
+				56EAB2782A60890600F70C7C /* Model */,
 				56EAB26D2A5DD99F00F70C7C /* PokemonListView.swift */,
 				56EAB2712A5E29A700F70C7C /* PokemonListCell.swift */,
 			);
@@ -177,6 +196,22 @@
 				56EAB2762A5F003600F70C7C /* PokemonDetailView.swift */,
 			);
 			path = PokemonDetail;
+			sourceTree = "<group>";
+		};
+		56EAB2782A60890600F70C7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56EAB2792A608A8E00F70C7C /* PokemonResponseModel.swift */,
+				56EAB27B2A608C1E00F70C7C /* AbilityModel.swift */,
+				56EAB27D2A608C5100F70C7C /* SpeciesModel.swift */,
+				56EAB27F2A608CD700F70C7C /* GameIndexModel.swift */,
+				56EAB2812A608DBC00F70C7C /* StatModel.swift */,
+				56EAB2832A608DF600F70C7C /* TypeElementModel.swift */,
+				56EAB2852A608EA000F70C7C /* SpritesModel.swift */,
+				56EAB2872A60926C00F70C7C /* MoveModel.swift */,
+				56EAB2892A6092F300F70C7C /* APIClient.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,15 +351,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56EAB27C2A608C1E00F70C7C /* AbilityModel.swift in Sources */,
+				56EAB2822A608DBC00F70C7C /* StatModel.swift in Sources */,
 				56EAB2742A5E6B7300F70C7C /* CGFloat.swift in Sources */,
 				56EAB2722A5E29A700F70C7C /* PokemonListCell.swift in Sources */,
 				56EAB2772A5F003600F70C7C /* PokemonDetailView.swift in Sources */,
 				56EAB26E2A5DD99F00F70C7C /* PokemonListView.swift in Sources */,
 				56EAB2392A5CC8DD00F70C7C /* LoginView.swift in Sources */,
 				56EAB26B2A5CDF4A00F70C7C /* UIColor.swift in Sources */,
+				56EAB2882A60926C00F70C7C /* MoveModel.swift in Sources */,
+				56EAB2862A608EA000F70C7C /* SpritesModel.swift in Sources */,
+				56EAB2842A608DF600F70C7C /* TypeElementModel.swift in Sources */,
+				56EAB27A2A608A8E00F70C7C /* PokemonResponseModel.swift in Sources */,
 				56EAB2352A5CC8DD00F70C7C /* AppDelegate.swift in Sources */,
 				56EAB2372A5CC8DD00F70C7C /* SceneDelegate.swift in Sources */,
+				56EAB27E2A608C5100F70C7C /* SpeciesModel.swift in Sources */,
+				56EAB2802A608CD700F70C7C /* GameIndexModel.swift in Sources */,
 				56EAB2702A5E0ADD00F70C7C /* UISearchBar.swift in Sources */,
+				56EAB28A2A6092F300F70C7C /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +553,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,6 +583,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

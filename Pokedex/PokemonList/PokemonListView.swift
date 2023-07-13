@@ -72,24 +72,28 @@ class PokemonListView: UIViewController {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        cv.backgroundColor = .white
         return cv
     }()
     
     var listMode = false
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         title = " "
         view.backgroundColor = .white
-    
+        
         collectionView.register(PokemonListCell.self, forCellWithReuseIdentifier: "PokemonListCell")
         collectionView.dataSource = self
         collectionView.delegate = self
-              
+        
         setupUI()
         
         collectionView.reloadData()
+        
     }
+    
+    
     
     func setupUI(){
         
@@ -152,7 +156,7 @@ class PokemonListView: UIViewController {
         
         listModeButton.addTarget(self, action: #selector(listModeButtonDidTap), for: .touchUpInside)
         gridModeButton.addTarget(self, action: #selector(gridModeButtonnDidTap), for: .touchUpInside)
-                
+        
     }
     
     @objc func listModeButtonDidTap(){
